@@ -32,6 +32,7 @@ jobs:
       working-directory: my_app
       
     - name: Deploy
+      working-directory: my_app
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
